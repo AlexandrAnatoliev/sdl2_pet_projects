@@ -14,9 +14,13 @@
 
 Компилируем файл с исхоным кодом *less1_window.c* командой:
 
-`gcc less1_window.c -w -lSDL2 -o less1`
+`gcc less1_window.c -lSDL2 -o less1`
 
-Получаем исполняемый файл *less1*
+* `gcc less1_window.c` - файл *less_window.c*;
+* `lSDL2` - линкуем с библиотекой *SDL2*;
+* `-o` - компилируем;
+* и получаем исполняемый файл *less1*
+
 Запускаем его командой:
 
 `./less1`
